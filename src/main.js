@@ -9,8 +9,8 @@ let string = `
 #div1{
 
     border:1px solid red;
-    width:400px;
-    height:400px;
+    width:200px;
+    height:200px;
 }
 /*接下来我把div变成一个八卦图
 首先把div变成一个圆
@@ -31,8 +31,8 @@ let string = `
 加两个神秘的小球
 */
 #div1::before{
-    width:200px;
-    height:200px; 
+    width:100px;
+    height:100px; 
     top:0;
     left:50%;
     transform:translateX(-50%);
@@ -42,8 +42,8 @@ let string = `
     rgba(0,0,0,1) 25%, rgba(0,0,0,1) 100%);
 }
 #div1::after{
-    width:200px;
-    height:200px;
+    width:100px;
+    height:100px;
     bottom:0;
     left:50%;
     transform:translateX(-50%);
